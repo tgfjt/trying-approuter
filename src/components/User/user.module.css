@@ -1,0 +1,44 @@
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid #414141;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 0.5em 0.75em 1em;
+}
+
+.cardTitle {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 6ch max(1em, calc(50% - 75px));
+  font-size: larger;
+}
+
+.detailBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.detailTitle {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.avatar {
+  border-radius: 50%;
+  
+  box-shadow: 0 0 0 4px #414141;
+}

@@ -1,0 +1,6 @@
+.list {
+  padding-inline: max(1em, calc(50% - 14em));
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
